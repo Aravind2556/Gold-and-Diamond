@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./jwell.css">
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container"style="z-index: 10;top:0px;">
+        <div class="top_container" style="z-index: 10;">
+             <h1 id="logo_image">&#8491;&#9789;</h1>
+             <input type="text" placeholder="Search for Gold Jewellery Diamond..." class="input_top_contain" id="inputBox">
+             <div class="input_icon">
+             <p><i class="fa-solid fa-camera-retro"></i></p>
+            <p><i class="fa-solid fa-microphone"></i></p>
+            <p><i class="fa-solid fa-magnifying-glass"></i></p>
+            </div>
+            <div class="menu_icons">
+                <div class="menu">
+                    <p class="navigation_top_left"><i class="fa-sharp fa-regular fa-gem"></i></p>
+                    <p>Diamond</p>
+                </div>
+                <div class="menu">
+                    <p class="navigation_top_left"><i class="fa-solid fa-store"></i></p>
+                    <p>Store</p>
+                </div>
+                <div class="menu">
+                    <p class="navigation_top_left" id="navigation_top_left"><i class="fa-solid fa-user"></i></p>
+                    <p id="navigation_top_left_account">Account</p>
+                </div>
+                <div class="menu">
+                    <p class="navigation_top_left"><i class="fa-solid fa-heart"></i></p>
+                    <p>Wishlist</p>
+                </div>
+                <div class="menu">
+                    <p class="navigation_top_left"><i class="fa-solid fa-cart-shopping"></i></p>
+                    <p>Cart</p>
+                </div>
+            </div>
+           </div>
+         
+<div class="container2" style="z-index: 10;">
+          <div class="container_top2_menucontent">
+                <p class="underline" id="underline1_bar">All Jewellery</p>
+                <p class="underline" id="underline2_bar">Gold</p>
+                <p class="underline" id="underline3_bar">Diamond</p>
+                <p class="underline" id="underline4_bar">Earrings</p>
+                <p class="underline" id="underline5_bar">Rings</p>
+                <p class="underline" id="underline6_bar">Digital Gold</p>
+                <p class="underline">Mia</p>
+                <p class="underline" id="underline8_bar">Collections</p>
+                <p class="underline">Wedding</p>
+                <p class="underline" id="underline10_bar">Gifting</p>
+                <p class="underline">Golden Harvest</p>
+                <p class="underline" id="underline12_bar">More</p>
+            </div>
+        
+        </div>
+
+        <div class="slideshow" style="position: relative;">
+            
+        </div> 
+
+
+
+        <!--Enquire form-->
+
+        
+        <div class="enquire_form" id="enquire_logo">
+            <p><i class="fa-solid fa-handshake fa-beat-fade" style="color: blue;"></i></p></div>
+          
+
+            <center><div class="enguire_letter" id="enquire_popup">
+              
+                    <div class="close_icon" >
+                    <div><h1>Enquire from</h1></div>
+                    <div class="close" id="close_button">&#x58;</div>
+                </div>
+                <table border="1px">
+                    <tr>
+                        <td>Name</td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Name</td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Name</td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Name</td>
+                        <td><input type="textarea" ></td>
+                    </tr>
+
+                </table>
+                
+            </div></center>
+       </div>
+          
+    
+        
+       <script>
+        //Enquire form list
+
+    var enquire_logo=document.getElementById('enquire_logo')
+    var enquire_popup=document.getElementById('enquire_popup') 
+    var close_button_popup=document.getElementById('close_button')
+    enquire_logo.addEventListener('click',function(){
+        enquire_popup.style.display='inline-block'
+
+    })
+    close_button_popup.addEventListener('click',function(){
+        enquire_popup.style.display='none'
+        
+
+    })
+
+       </script>
+       
+
+
+
+       
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <center><div class="script_content" id="script_content" style="z-index: 10;">
+            <div class="login">
+                <h1>MY ACCOUNT</h1>
+                <p>LOGIN TO ACCESS YOUR ACCOUNT</p>
+                <div class="button_login">
+                    <p class="login_button">LOG IN</p>
+                    <p class="signin_button">SIGN IN</p>
+                </div>
+                <div class="contact_us">
+                <P>CLICK HERE TO <span class="contact_us_login">CONTACT US</span></P>
+                </div>
+                <div class="login_close">
+                    <p class="login_closeing">close</p>
+                </div>
+            </div>
+    
+        </div></center>
+
+
+
+        <script>
+            var navigation_login_account=document.getElementById('navigation_top_left')
+            var popup_navigation_account=document.getElementById('script_content')
+            var navigation_top_left_account=document.getElementById('navigation_top_left_account')
+            var close_popup=document.querySelector('.login_close')
+
+            navigation_login_account.addEventListener('click',function(){
+                popup_navigation_account.style.display='grid'
+            })
+            navigation_top_left_account.addEventListener('click',()=>{
+                popup_navigation_account.style.display='none'
+            })
+            close_popup.addEventListener('click',function(){
+                popup_navigation_account.style.display='none'
+            })
+
+
+
+
+
+        </script>
+
+
+<div class="underline_container" id="underline1_container" style="z-index: 10;">
+    <div class="underline_container01">
+        <div class="left">
+            <p>Category</p>
+            <p>All Jewellery</p>
+            <p>Earrings</p>
+            <p>Pendants</p>
+            <p>Finger Rings</p>
+            <p>Mangalsutra</p>
+            <p>Chains</p>
+            <p>Nose Pin</p>
+            <p>Necklaces</p>
+            <p>Necklace Set</p>
+        </div>
+        <div class="left">
+            <p class="no">0</p>
+            <p>Bangles</p>
+            <p>Bracelets</p>
+            <p>Pendants & Earring Set</p>
+            <p>Gold Coins</p>
+            <p>Gift Card</p>
+        </div>
+        <div class="left">
+            <p>Gender</p>
+            <p>Women</p>
+            <p>Men</p>
+            <p>Kids & Teens</p>
+        </div>
+        <div class="left">
+            <p>Price Band</p>
+            <p>&#x3c;25K</p>
+            <p>25K-50K</p>
+            <p>50K-1L</p>
+            <p>1L & Above</p>
+        </div>
+    </div>
+
+</div>
+
+<script>
+    var underline_navigation=document.getElementById('underline1_bar')
+    var popup_navigation_container=document.getElementById('underline1_container')
+
+    underline_navigation.addEventListener('click',function(){
+        popup_navigation_container.style.display='inline-block'
+    })
+    popup_navigation_container.addEventListener('click',function(){
+        popup_navigation_container.style.display='none' 
+    })
+
+
+</script>
+
+
+<div class="underline_container2" id="underline_container2" style="z-index: 10;">
+    <div class="underline_container02">
+        <div class="left2">
+            <p>Category</p>
+            <p>Bangles</p>
+            <p>Bracelets</p>
+            <p>Earrings</p>
+            <p>Gold Chains</p>
+            <p>Pendants</p>
+            <p>Rings</p>
+            <p>Engagement Rings</p>
+            <p>Necklaces</p>
+            <p>Nose Pins</p>
+            <p>Kadas</p>
+            <p>Mangalsutras</p>
+        </div>
+        <div class="left2">
+            <p class="no">0</p>
+            <p>Jhumkas</p>
+            <p>Hoop Earrings</p>
+            <p>Stud Earrings</p>
+            <p>Drop Earrings</p>
+            <p>Maang Tikka</p>
+            <p>Necklace Set</p>
+            <p>Pendants & Earrings Sets</p>
+            
+        </div>
+        <div class="left2">
+            <p>Men</p>
+            <p>Bracelets</p>
+            <p>Chains</p>
+            <p>Engagement Rings</p>
+            <p>Kadas</p>
+            <p>Pendants</p>
+            <p>Rings</p>
+            
+        </div>
+        <div class="left2">
+            <p>Gold Coin</p>
+            <p>Special Coins</p>
+            <p>1 Gram</p>
+            <p>2 Gram</p>
+            <p>4 Gram</p>
+            <p>5 Gram</p>
+            <p>8 Gram</p>
+            <p>10 Gram</p>
+            <p>25 Gram</p>
+            <p>30 Gram</p>
+            <p>50 Gram</p>
+            <p>100 Gram</p>
+            
+        </div>
+        <div class="left2">
+            <p>Metal</p>
+            <p>🟠Rose</p>
+            <p>⚪White</p>
+            <p>🟡Yellow</p>
+        </div>
+    </div>
+    </div>
+
+    <script>
+        var underline_navigation2=document.getElementById('underline2_bar' )
+        var popup_navigation_container2=document.getElementById('underline_container2')
+    
+        underline_navigation2.addEventListener('click',function(){
+            popup_navigation_container2.style.display='inline-block'
+        })
+        popup_navigation_container2.addEventListener('click',function(){
+            popup_navigation_container2.style.display='none' 
+        })
+    
+    
+    </script>
+
+
+    <div class="underline_container3" id="underline_container3" style="z-index: 10;">
+    <div class="underline_container03">
+        <div class="left3">
+            <p>Category</p>
+            <p>All Jewellery</p>
+            <p>Earrings</p>
+            <p>Pendants</p>
+            <p>Finger Rings</p>
+            <p>Mangalsutra</p>
+            <p>Chains</p>
+            <p>Nose Pin</p>
+            <p>Necklaces</p>
+            <p>Necklace Set</p>
+        </div>
+        <div class="left3">
+            <p class="no">0</p>
+            <p>Bangles</p>
+            <p>Bracelets</p>
+            <p>Pendants & Earring Set</p>
+            <p>Gold Coins</p>
+            <p>Gift Card</p>
+        </div>
+        <div class="left3">
+            <p>Gender</p>
+            <p>Women</p>
+            <p>Men</p>
+            <p>Kids & Teens</p>
+        </div>
+        <div class="left3">
+            <p>Price Band</p>
+            <p>&#x3c;25K</p>
+            <p>25K-50K</p>
+            <p>50K-1L</p>
+            <p>1L & Above</p>
+        </div>
+    </div>
+    </div>
+    
+
+    <script>
+        var underline3_navigation=document.getElementById('underline3_bar')
+        var popup_navigation_container3=document.getElementById('underline_container3')
+    
+        underline3_navigation.addEventListener('click',function(){
+            popup_navigation_container3.style.display='inline-block'
+            })
+        popup_navigation_container3.addEventListener('click',function(){
+             popup_navigation_container3.style.display='none'
+        })
+    
+    
+    </script>
+
+
+
+<div class="underline_container4" id="underline_container4" style="z-index: 10;">
+    <div class="underline_container04">
+        <div class="left4">
+            <p>Category</p>
+            <p>All Jewellery</p>
+            <p>Earrings</p>
+            <p>Pendants</p>
+            <p>Finger Rings</p>
+            <p>Mangalsutra</p>
+            <p>Chains</p>
+            <p>Nose Pin</p>
+            <p>Necklaces</p>
+            <p>Necklace Set</p>
+        </div>
+        <div class="left4">
+            <p class="no">0</p>
+            <p>Bangles</p>
+            <p>Bracelets</p>
+            <p>Pendants & Earring Set</p>
+            <p>Gold Coins</p>
+            <p>Gift Card</p>
+        </div>
+        <div class="left4">
+            <p>Gender</p>
+            <p>Women</p>
+            <p>Men</p>
+            <p>Kids & Teens</p>
+        </div>
+        <div class="left4">
+            <p>Price Band</p>
+            <p>&#x3c;25K</p>
+            <p>25K-50K</p>
+            <p>50K-1L</p>
+            <p>1L & Above</p>
+        </div>
+    </div>
+    </div>
+    
+
+    <script>
+        var underline4_navigation=document.getElementById('underline4_bar')
+        var popup_navigation_container4=document.getElementById('underline_container4')
+    
+        underline4_navigation.addEventListener('click',function(){
+            popup_navigation_container4.style.display='inline-block'
+            })
+        popup_navigation_container4.addEventListener('click',function(){
+             popup_navigation_container4.style.display='none'
+        })
+    
+    
+    </script>
+
+
+
+
+
+<div class="underline_container5" id="underline_container5" style="z-index: 10;">
+    <div class="underline_container05">
+        <div class="left5">
+            <p>Category</p>
+            <p>All Jewellery</p>
+            <p>Earrings</p>
+            <p>Pendants</p>
+            <p>Finger Rings</p>
+            <p>Mangalsutra</p>
+            <p>Chains</p>
+            <p>Nose Pin</p>
+            <p>Necklaces</p>
+            <p>Necklace Set</p>
+        </div>
+        <div class="left5">
+            <p class="no">0</p>
+            <p>Bangles</p>
+            <p>Bracelets</p>
+            <p>Pendants & Earring Set</p>
+            <p>Gold Coins</p>
+            <p>Gift Card</p>
+        </div>
+        <div class="left5">
+            <p>Gender</p>
+            <p>Women</p>
+            <p>Men</p>
+            <p>Kids & Teens</p>
+        </div>
+        <div class="left5">
+            <p>Price Band</p>
+            <p>&#x3c;25K</p>
+            <p>25K-50K</p>
+            <p>50K-1L</p>
+            <p>1L & Above</p>
+        </div>
+    </div>
+    </div>
+    
+
+    <script>
+        var underline5_navigation=document.getElementById('underline5_bar')
+        var popup_navigation_container5=document.getElementById('underline_container5')
+    
+        underline5_navigation.addEventListener('click',function(){
+            popup_navigation_container5.style.display='inline-block'
+            })
+        popup_navigation_container5.addEventListener('click',function(){
+             popup_navigation_container5.style.display='none'
+        })
+    
+    
+    </script>
+
+
+
+
+<div class="underline_container6" id="underline_container6" style="z-index: 10;">
+    <div class="underline_container06">
+        <div class="left6">
+            <p>Category</p>
+            <p>All Jewellery</p>
+            <p>Earrings</p>
+            <p>Pendants</p>
+            <p>Finger Rings</p>
+            <p>Mangalsutra</p>
+            <p>Chains</p>
+            <p>Nose Pin</p>
+            <p>Necklaces</p>
+            <p>Necklace Set</p>
+        </div>
+        <div class="left6">
+            <p class="no">0</p>
+            <p>Bangles</p>
+            <p>Bracelets</p>
+            <p>Pendants & Earring Set</p>
+            <p>Gold Coins</p>
+            <p>Gift Card</p>
+        </div>
+        <div class="left6">
+            <p>Gender</p>
+            <p>Women</p>
+            <p>Men</p>
+            <p>Kids & Teens</p>
+        </div>
+        <div class="left6">
+            <p>Price Band</p>
+            <p>&#x3c;25K</p>
+            <p>25K-50K</p>
+            <p>50K-1L</p>
+            <p>1L & Above</p>
+        </div>
+    </div>
+    </div>
+    
+
+    <script>
+        var underline6_navigation=document.getElementById('underline6_bar')
+        var popup_navigation_container6=document.getElementById('underline_container6')
+    
+        underline6_navigation.addEventListener('click',function(){
+            popup_navigation_container6.style.display='inline-block'
+            })
+        popup_navigation_container6.addEventListener('click',function(){
+             popup_navigation_container6.style.display='none'
+        })
+    
+    
+    </script>
+
+
+
+
+<div class="underline_container8" id="underline_container8" style="z-index: 10;">
+    <div class="underline_container08">
+        <div class="left8">
+            <p>Category</p>
+            <p>All Jewellery</p>
+            <p>Earrings</p>
+            <p>Pendants</p>
+            <p>Finger Rings</p>
+            <p>Mangalsutra</p>
+            <p>Chains</p>
+            <p>Nose Pin</p>
+            <p>Necklaces</p>
+            <p>Necklace Set</p>
+        </div>
+        <div class="left8">
+            <p class="no">0</p>
+            <p>Bangles</p>
+            <p>Bracelets</p>
+            <p>Pendants & Earring Set</p>
+            <p>Gold Coins</p>
+            <p>Gift Card</p>
+        </div>
+        <div class="left8">
+            <p>Gender</p>
+            <p>Women</p>
+            <p>Men</p>
+            <p>Kids & Teens</p>
+        </div>
+       
+    </div>
+    </div>
+    
+
+    <script>
+        var underline8_navigation=document.getElementById('underline8_bar')
+        var popup_navigation_container8=document.getElementById('underline_container8')
+    
+        underline8_navigation.addEventListener('click',function(){
+            popup_navigation_container8.style.display='inline-block'
+            })
+        popup_navigation_container8.addEventListener('click',function(){
+             popup_navigation_container8.style.display='none'
+        })
+    
+    
+    </script>
+
+
+
+<div class="underline_container10" id="underline_container10" style="z-index: 10;">
+    <div class="underline10_container">
+        <div class="left10">
+            <p>Category</p>
+            <p>All Jewellery</p>
+            <p>Earrings</p>
+        </div>
+       
+       
+    </div>
+    </div>
+    
+
+    <script>
+        var underline10_navigation=document.getElementById('underline10_bar')
+        var popup_navigation_container10=document.getElementById('underline_container10')
+    
+        underline10_navigation.addEventListener('click',function(){
+            popup_navigation_container10.style.display='inline-block'
+            })
+        popup_navigation_container10.addEventListener('click',function(){
+             popup_navigation_container10.style.display='none'
+        })
+    
+    
+    </script>
+
+
+
+
+<div class="underline_container12" id="underline_container12" style="z-index: 10;">
+    <div class="underline12_container">
+        <div class="left12">
+            <p>Category</p>
+            <p>All Jewellery</p>
+            <p>Earrings</p>
+            <p>Category</p>
+            <p>All Jewellery</p>
+            <p>Earrings</p>
+        </div>
+       
+       
+    </div>
+    </div>
+    
+
+    <script>
+        var underline12_navigation=document.getElementById('underline12_bar')
+        var popup_navigation_container12=document.getElementById('underline_container12')
+    
+        underline12_navigation.addEventListener('click',function(){
+            popup_navigation_container12.style.display='inline-block'
+            })
+        popup_navigation_container12.addEventListener('click',function(){
+             popup_navigation_container12.style.display='none'
+        })
+    
+    
+    </script>
+    
+<!-- search content -->
+
+<div class="container_box">
+<div id="container_prod">
+   <div class="h1"> <img src="./wedding gold.jpeg" class="input_image">
+    <h1>Wedding Gold</h1></div>
+       <div class="h1"> <img src="./Diwali gold.jpeg" class="input_image">
+        <h1>Diwali</h1></div>
+        <div class="h1"><img src="./princess gift.jpeg" class="input_image">
+            <h1>Princess gift</h1></div>
+        <div class="h1"><img src="./new year surprice.jpeg" class="input_image">
+            <h1>Nwe year Surprise</h1></div>
+        <div class="h1"><img src="./onam trend.jpeg" class="input_image">
+            <h1>Onam trend</h1></div>
+        <div class="h1"><img src="./kerala.jpeg" class="input_image">
+            <h1>kerala</h1></div>
+        <div class="h1"><img src="./sowthi special.jpeg" class="input_image">
+            <h1>sowthi trends</h1></div>
+        <div class="h1"><img src="./America gift.jpeg" class="input_image">
+            <h1>America gift</h1></div>
+        <div class="h1"><img src="./landon earing.jpeg" class="input_image">
+            <h1>landon earing</h1></div>
+        <div class="h1"><img src="./matte finish.jpeg" class="input_image">
+            <h1>matte finish</h1></div>
+        <div class="h1"><img src="./marrage earing.jpeg" class="input_image">
+            <h1>marrage earing</h1></div>
+        <div class="h1"><img src="./couple gift.jpeg" class="input_image">
+            <h1>couple gift</h1></div>
+        <div class="h1"><img src="./spare gold.jpeg" class="input_image">
+            <h1>spare gold</h1></div>
+        <div class="h1" ><img src="./customize gold.jpeg" class="input_image">
+            <h1>customize special</h1></div>
+        <div class="h1"><img src="./surprice.jpeg" class="input_image">
+            <h1>Surprise</h1></div>
+            <div class="h1"><img src="./loves.jpeg" class="input_image">
+                <h1>loves</h1></div>
+        
+        </div>
+        
+        <div class="footer">
+            <h1>fgf</h1>
+
+        </div>
+
+
+
+
+
+
+
+<script>
+
+      var inputBox=document.getElementById("inputBox");
+      var container=document.querySelector("#container_prod");
+      var h1list=container.getElementsByTagName("div")
+     
+      inputBox.addEventListener("keyup",function(){
+       
+        for(count=0;count<=h1list.length;count++)
+     {
+        if(h1list[count].textContent.indexOf(inputBox.value)<0)
+     {
+        h1list[count].style.display="none";
+     }
+     else
+     {
+        h1list[count].style.display="block";
+     }
+     }
+
+
+      })
+
+
+      inputBox.addEventListener('click',function(){
+        container.style.display='flex'
+      })
+      </script>
+
+
+
+
+
+
+</body>
+</html>
+
+

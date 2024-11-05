@@ -1,0 +1,219 @@
+
+*{
+    margin: 0;
+    text-decoration: none;
+}
+body{
+    background-color: #D4AF37;
+}
+.container{
+    position: absolute;
+    width: 100%;
+}
+.top_container{
+    display: flex;
+    background-color: #FFD700;
+    height: 100px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+   
+}
+.input_icon{
+    display: flex;
+    gap: 10px;
+    position: relative;
+    right: 100px;
+    font-size: 15px;
+    color:#8b4513;
+}
+#logo_image{
+    
+    position: relative;
+    left: 60px;
+    font-size: 50px;
+    color: #8b4513;
+    
+   
+}
+.menu_icons{
+    display: flex;
+    text-align: center;
+    gap: 10px;
+    font-size: 15px;
+    align-items: center;
+    color:saddlebrown;
+    position: relative;
+    right: 80px;
+   
+}
+.menu:hover{
+  font-size: 17px;
+  text-decoration: underline;
+}
+.input_top_contain{
+   background: none;
+    position: relative;
+    height: 30px;
+    font-size: 10px;
+    width: 600px;
+    left: 50px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+
+}
+
+/* notifaction name */
+
+
+.container2{
+    text-align: center;
+    width: 1300px;
+    position: fixed;
+    text-transform:capitalize;
+    
+}
+.container_top2_menucontent{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    gap: 3px;
+    position: relative;
+    top: 100px;
+    
+}
+.underline{
+    background-color: #b86931;
+    width: 105px;
+    height: 20px;
+}
+.underline:hover{
+    background-color: #8b4513;
+    color: white;
+    cursor: pointer;
+    text-decoration: underline solid snow ;
+}
+
+/* login box section */
+
+.container1{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 200px;
+}
+.login_box_container{
+    width: 800px;
+    height: 400px;
+    border: 2px solid wheat;
+    align-items: center;
+    text-align: center ;
+}
+.login_button{
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+    text-align: center ;
+    border: 2px solid #8b4513;
+}
+.log{
+    width: 400px;
+    height: 50px;
+   
+    align-items: center;
+    font-size: x-large;
+}
+.sign{
+    width: 400px;
+    height: 50px;
+    font-size: x-large;
+    background-color: #8b4513;
+}
+.lo{
+    position: relative;
+    top: 10px;
+}
+.sig{
+    position: relative;
+    top: 10px;
+}
+.input{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   gap: 30px;
+   position: relative;
+   top: 30px;
+   left: 20px;
+}
+#alredy_login{
+    cursor: pointer;
+    color: #8b4513;
+}
+.input_box_name{
+    text-align: left;
+}
+.faregular{
+    width: 350px;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    background: none;
+}
+.input2{
+    position: relative;
+    top: 50px;
+}
+.Register_To_Continue{
+    width: 300px;
+    height: 40px;
+    background-color: #8b4513;
+    font-size: 20px;
+    color: white;
+}
+
+/* Enquire form */
+.enquire_form{
+    position: fixed;
+    top: 600px;
+    font-size: 60px;
+    left:90%;
+    cursor: pointer;
+    
+    
+
+}
+.enguire_letter{
+    position: fixed;
+    top: 300px;
+    font-size: 20px;
+    color: black;
+    right: 50px;
+    background-color: white;
+    width: 300px;
+    justify-content: center;
+    display: inline-block;
+    height: 300px;
+    display: none;
+   
+}
+.close_icon{
+    display: flex;
+}
+.close{
+ position: relative;
+ left: 35px;
+ background-color: black;
+color: white;
+cursor: pointer;
+width: 20px;
+height: 22px;
+}
+
+
+
+
+
